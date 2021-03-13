@@ -1,0 +1,109 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://a9132eb4-041f-427c-9dab-428807c36431",
+	"@type": "sc:Manifest",
+	"label": "[Virtues and Vices]",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[The two sources provide insight into how virtue and vices were perceived in the Middle Ages]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Vaticana Library/Gallica library]",
+	"sequences": [
+		{
+			"@id": "http://243fb8f3-7e88-472f-af99-5403182d038d",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://7eb213cb-45d6-4ed8-b6a9-618bfd79e4af",
+					"@type": "sc:Canvas",
+					"label": "Vaticana",
+					"height": 2966,
+					"width": 3893,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://fd9a8801-eb22-4da2-bc44-4e75672c5fab",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://digi.vatlib.it/iiifimage/MSS_Barb.lat.4076/Barb.lat.4076_0014_fr_0008v-1r.jp2/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://digi.vatlib.it/iiifimage/MSS_Barb.lat.4076/Barb.lat.4076_0014_fr_0008v-1r.jp2",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 2966,
+								"width": 3893
+							},
+							"on": "http://7eb213cb-45d6-4ed8-b6a9-618bfd79e4af"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://1ab674a1-df92-4ffb-9a63-868998bc88f5",
+					"@type": "sc:Canvas",
+					"label": "Gallica",
+					"height": 3408,
+					"width": 2352,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://fd930a9d-1435-471f-a2fa-37863f58c988",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8449684q/f9/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+									"@id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8449684q/f9",
+									"profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+								},
+								"height": 3408,
+								"width": 2352
+							},
+							"on": "http://1ab674a1-df92-4ffb-9a63-868998bc88f5"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
